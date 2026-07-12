@@ -10,9 +10,9 @@ function App() {
     <Routes>
       <Route element={<GlobalLayout />}>
         <Route path="/" element={<IndexPage />} />
-        <Route path="/sign-in" element={<SignInPage />} />
-        <Route path="/sign-up" element={<SignUpPage />} />
       </Route>
+      <Route path="/sign-in" element={<SignInPage />} />
+      <Route path="/sign-up" element={<SignUpPage />} />
     </Routes>
   );
 }

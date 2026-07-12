@@ -2,11 +2,12 @@ import { memo } from "react";
 import { Link } from "react-router";
 
 const utilityLinks = [
-  { label: "로그인", to: "/login" },
+  { label: "로그인", to: "/sign-in" },
   { label: "멤버십", to: "/membership" },
   { label: "고객센터", to: "/customer" },
   { label: "장바구니", to: "/cart" },
 ] as const;
+//로그인 상태라면 로그아웃 버튼이 보일수 있도록 하는 기능 추가.
 
 export const UtilityBar = memo(function UtilityBar() {
   return (

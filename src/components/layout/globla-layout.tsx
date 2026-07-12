@@ -13,7 +13,7 @@ export default function GlobalLayout() {
           <CategoryTabs />
         </div>
       </header>
-      <main className="mx-auto flex w-full max-w-7xl flex-col px-12">
+      <main className="w-full flex-1 py-6">
         <Outlet />
       </main>
       <footer className="text-muted-foreground border-t py-10 text-center">
